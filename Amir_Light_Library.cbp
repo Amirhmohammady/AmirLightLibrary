@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Amir_Light_Library" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Amir_Light_Library" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Amir_Light_Library" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CppFiles/AmirException.cpp" />
+		<Unit filename="CppFiles/AmirFile.cpp" />
+		<Unit filename="CppFiles/AmirGUI.cpp" />
+		<Unit filename="CppFiles/AmirHardwareInformation.cpp" />
+		<Unit filename="CppFiles/AmirLib1Globals.cpp" />
+		<Unit filename="CppFiles/AmirLib2Globals.cpp" />
+		<Unit filename="CppFiles/AmirLog.cpp" />
+		<Unit filename="CppFiles/AmirMath.cpp" />
+		<Unit filename="CppFiles/AmirNetwork.cpp" />
+		<Unit filename="CppFiles/AmirProxyManager.cpp" />
+		<Unit filename="CppFiles/AmirThread.cpp" />
+		<Unit filename="CppFiles/main.cpp" />
+		<Unit filename="Headers/AmirException.h" />
+		<Unit filename="Headers/AmirFile.h" />
+		<Unit filename="Headers/AmirGUI.h" />
+		<Unit filename="Headers/AmirHardwareInformation.h" />
+		<Unit filename="Headers/AmirLib1Globals.h" />
+		<Unit filename="Headers/AmirLib2Globals.h" />
+		<Unit filename="Headers/AmirLog.h" />
+		<Unit filename="Headers/AmirMath.h" />
+		<Unit filename="Headers/AmirNetwork.h" />
+		<Unit filename="Headers/AmirProxyManager.h" />
+		<Unit filename="Headers/AmirThread.h" />
+		<Unit filename="Recources/netfol.ico" />
+		<Unit filename="Recources/resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
