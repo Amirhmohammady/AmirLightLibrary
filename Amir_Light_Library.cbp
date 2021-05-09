@@ -32,6 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Linker>
+			<Add library="ws2_32" />
+			<Add library="iphlpapi" />
+		</Linker>
 		<Unit filename="CppFiles/AmirException.cpp" />
 		<Unit filename="CppFiles/AmirFile.cpp" />
 		<Unit filename="CppFiles/AmirGUI.cpp" />
@@ -60,9 +64,6 @@
 			<Option compilerVar="WINDRES" />
 		</Unit>
 		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
 			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
